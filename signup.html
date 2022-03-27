@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/44a8da79f9.js" crossorigin="anonymous"></script>
+</head>
+<body background="./images/fbg4.jpg">
+    <!-- <a id="homee" href="index.html">HOME</a> -->
+
+
+    
+    <div class="container">
+        <a href="index.html"  ><img src="./images/circle-xmark-solid.svg"  id="closepopup" alt="#"></a>
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form id="form" class="form" src="index.html">
+            <div class="form-control">
+                <label for="username">Name</label>
+                <input type="text" placeholder="Enter your name" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="Number">Number</label>
+                <input type="Number" placeholder="Enter your Number" id="Number" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="Enter a valid mail id " id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Password" id="password"/>
+                <i  class="fas fa-check-circle"></i>
+                <i id="opt2" class="fas fa-exclamation-circle"></i>
+                <small id="warn">Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Comform Password</label>
+                <input type="password" placeholder="Enter Password again" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+
+    </div>
+
+
+    <script src="signup.js"></script>
+</body>
+</html>
