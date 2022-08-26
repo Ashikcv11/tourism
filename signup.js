@@ -18,7 +18,7 @@ function checkInputs() {
 	const emailValue = email.value.trim();
 	const passwordValue = password.value.trim();
 	const password2Value = password2.value.trim();
-	let warn = document.getElementById("warn");
+	//let warn = document.getElementById("warn");
 	
 	if(usernameValue === '') {
 		setErrorFor(username, 'Username cannot be blank');
